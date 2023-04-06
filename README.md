@@ -17,7 +17,7 @@ Ao concluir a formação, os alunos estarão aptos a criar programas complexos u
 1. Introdução à Lógica de Programação
 2. Introdução ao JavaScript
 3. Algoritmos e Estruturas de Dados em JavaScript
-4. Programação Orientada a Objetos em JavaScript
+4. Dom javascript
 
 ## Licença
 
