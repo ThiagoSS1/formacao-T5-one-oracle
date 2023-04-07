@@ -1,7 +1,5 @@
 # formacao-T5-one-oracle
 
-Aqui está um possível código que você pode adicionar ao seu arquivo README.md para descrever a formação em lógica e JavaScript:
-
 # Formação em Lógica e JavaScript
 
 Este repositório contém materiais de estudo e projetos para a Formação em Lógica e JavaScript. A formação é projetada para estudantes que desejam aprender sobre algoritmos, estruturas de dados e programação orientada a objetos usando a linguagem de programação JavaScript.
