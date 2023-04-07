@@ -1,6 +1,6 @@
 # Formacao-T5-one-oracle
 
-### Formação em Lógica e JavaScript
+## Formação em Lógica e JavaScript
 
 Este repositório contém materiais de estudo e projetos para a Formação em Lógica e JavaScript. A formação é projetada para estudantes que desejam aprender sobre algoritmos, estruturas de dados e programação orientada a objetos usando a linguagem de programação JavaScript.
 
