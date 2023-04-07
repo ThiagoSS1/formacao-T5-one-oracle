@@ -13,6 +13,7 @@ Ao concluir a formação, os alunos estarão aptos a criar programas complexos u
 🚀 Tecnologias Utilizadas
 <br>
 HTML5
+<br>
 JavaScript
 
 ## Módulos
