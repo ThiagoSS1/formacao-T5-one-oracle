@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<input type="text">
+<button> Verificar </button>
+
+<body>
+    <script>
+
+
+        function sorteia () {
+            return Math.round(Math.random() * 10)
+        }
+
+
+        function sorteiaNumeros(quantidade) {
+            let segredos = []
+
+            let numero = 1;
+
+            while(numero < quantidade) {
+                let achou = false
+                let numeroAleatorio = sorteia()
+
+                segredos.map((index) => {
+                    if (index == numeroAleatorio ) {
+                         achou = true   
+                    }
+                })
+
+                if(!achou) {
+                    segredos.push(numeroAleatorio)
+                    numero++
+                }
+            }
+
+            return segredos
+        }
+
+
+
+            let segredos = sorteiaNumeros(5)
+        //console.log(segredos)
+
+
+        let input = document.querySelector("input")
+        input.focus()
+        let btn = document.querySelector("button")
+
+        function verifica () {
+            let acertou = false;
+
+            segredos.map((index) => {
+                if (input.value == index) {
+                    alert("voce acertou")
+                    acertou = true;
+                }
+            })
+
+            if (!acertou) {
+                alert("voce errou")
+            }
+
+            input.value = ""
+            input.focus()
+        }
+
+
+        btn.addEventListener("click", verifica)
+
+    </script>
+</body>
+
+</html>

@@ -22,7 +22,14 @@
         let empates = prompt("Quantos empates o time tem?");
 
         let pontos = parseInt(vitorias * 3) + parseInt(empates);
-        mostra("O time tem " + pontos + " pontos");
+
+        if( pontos > 28) {
+            mostra("Os pontos do seu time é " + pontos + " e o time está melhor que o ano passado");
+        } else if (pontos < 28) {
+            mostra("Os pontos do seu time é " + pontos + " e o time está pior que o ano passado");
+        } else if (pontos === 28) {
+            mostra("Os pontos do seu time é " + pontos + " e o time está igual ao ano passado");
+        }
 
     </script>
 </body>
