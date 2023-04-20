@@ -12,6 +12,7 @@ Ao concluir a formação, os alunos estarão aptos a criar programas complexos u
 ## Tecnologias Utilizadas 🛠
  <ul>
   <li>HTML</li>
+  <li>CSS</li>
   <li>Javascript</li>
  </ul>
 
