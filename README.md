@@ -13,10 +13,10 @@ A formação é dividida em vários módulos, cada um focado em um tópico espec
 Ao concluir a formação, os alunos estarão aptos a criar programas complexos usando JavaScript e terão uma base sólida em lógica de programação, o que será útil para qualquer linguagem de programação.
 
 ## Tecnologias Utilizadas 🛠
-<br>
-HTML5
-<br>
-JavaScript
+ <ul>
+  <li>HTML</li>
+  <li>Javascript</li>
+ </ul>
 
 ## Módulos
 
